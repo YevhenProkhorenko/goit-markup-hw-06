@@ -681,18 +681,40 @@ img {
 	width: 570px;
 	margin-left: 93px;
 }
+.newsletter-wrapper-item{
+	display: flex;
+	align-items: center;
+	
+}
+.newsletter-wrapper-item .button{
+	display: flex;
+	align-items: center;
+	height: 50px;
+		
+}
 .newsletter{
 	width: 358px;
 	height: 50px;
+	margin-right: 12px;
+	padding-left: 12px;
 	background-color: var(--hero-footer-color);
+	color: var(--primary-page-color);	 
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	box-sizing: border-box;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
 }
+.newsletter:placeholder-shown{
+	font-size: 16px;
+	line-height: 1.25;	
+	color: var(--footer-contacts-color);
+}
 .newsletter-wrapper .secondary-tittle{
 	color: var(--primary-page-color);
-
+}
+.newsletter-icon-wrapper{
+	display: flex;
+	align-items: center;
 }
 
 
