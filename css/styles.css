@@ -317,41 +317,31 @@ img {
 	position: absolute;
 	
 }
-/* .modal-checkbox:checked + .modal-checkbox-label::before{
-	background-image: url('../images/icons.svg#icon-check');
-	fill: var(--accent-page-color);
-	color: #188ce8;	
-} */
+
 .modal-checkbox-label{
 	display: flex;
 	align-items: center;
 	font-size: 14px;	
 }
-/* .modal-checkbox-label::after{
-	display: inline-block;	
-	content: '';
-	width: 16px;
-	height: 15px;
-	border: 2px solid var(--secondary-text-color);
-	cursor: pointer;
-	margin-right: 8px;
-	margin-left: 12px;	
-} */
+
 .checkbox-icon{
 	display: inline-block;	
 	content: '';
 	width: 16px;
-	height: 15px;
+	height: 15px;		
 	border: 2px solid var(--secondary-text-color);
 	cursor: pointer;
 	margin-right: 8px;
 	margin-left: 12px;	
 }
-.modal-checkbox:checked + .checkbox-icon{
-	background-image: url(../images/icons.svg#icon-check);
-	fill: var(--primary-page-color);	
-	background-color:var(--accent-page-color);
+.modal-checkbox:checked + .checkbox-icon{	
+	background-image: url(../images/icon-check2.svg);
+	background-repeat: no-repeat;
+	background-color: var(--accent-page-color);
+	border-color: var(--accent-page-color);
+		
 }
+
 
 .button:hover {
 	color: var(--primary-page-color);
