@@ -705,6 +705,7 @@ img {
 .newsletter-icon-wrapper{
 	display: flex;
 	align-items: center;
+	margin-left: 10px;
 }
 
 
