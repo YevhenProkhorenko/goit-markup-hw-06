@@ -379,7 +379,7 @@ img {
 }
 .modal-btn-close:focus,
 .modal-btn-close:hover {
-	background-color: var(--accent-page-color);
+	fill: var(--accent-page-color);	
 }
 
 /*==============COMPANY ADVANTAGES/WORK EXAMPLES SECTION==============*/
