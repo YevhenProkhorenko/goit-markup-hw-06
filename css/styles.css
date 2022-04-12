@@ -213,6 +213,7 @@ img {
 	background: var(--accent-page-color);
 	cursor: pointer;
 	border-radius: 4px;
+	border: transparent;
 	transition-property: color, background;
 	transition-duration: 250ms;
 	transition-timing-function: var(--main-cubic-bezier);
@@ -354,8 +355,7 @@ img {
 	display: block;
 	margin-top: 30px;
 	margin-left: auto;
-	margin-right: auto;
-	border: transparent;
+	margin-right: auto;	
 }
 .modal-icons-wrapper {
 	position: relative;
@@ -625,13 +625,13 @@ img {
 	color: var(--accent-page-color);
 }
 .footer-logo {
+	display: block;
 	margin-bottom: 20px;
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
-	display: block;
+	letter-spacing: 0.03em;	
 }
 .logo-accent {
 	color: var(--primary-page-color);
@@ -643,6 +643,11 @@ img {
 .footer-wrapper {
 	display: flex;
 	align-items: baseline;
+}
+.footer-contacts-wrapper{	
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
 }
 .footer-social-container {
 	margin-left: 70px;
@@ -684,9 +689,9 @@ img {
 }
 .newsletter-wrapper-item .button{
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	height: 50px;
-		
+	height: 50px;	
 }
 .newsletter{
 	width: 358px;
